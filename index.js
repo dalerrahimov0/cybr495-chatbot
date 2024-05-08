@@ -8,7 +8,7 @@ const path = require('path')
 app.use(express.json());
 app.use(cors())
 const configuration = new Configuration({
-  apiKey: "sk-proj-84hcWh3WS9KI5rLKJh6uT3BlbkFJLucRsQVWsWCEAKxzbX6Q",
+  apiKey: "sk-proj-84hcWh3WS9KI5rLKJh6uT3BlbkFJLucRsQVWsWCEAKxzbX6A",
 });
 const openai = new OpenAIApi(configuration);
 app.use(express.urlencoded({ extended: true }))
