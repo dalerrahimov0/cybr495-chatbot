@@ -33,13 +33,13 @@ npm install
 Set up environment variables:
 
 ## Create a .env file in the root directory.
-Add your OpenAI API key and the desired port:
-makefile
-Copy
-Edit
-PORT=3000
-OPENAI_API_KEY=your-api-key-here
-Build and Run:
+  Add your OpenAI API key and the desired port:
+  makefile
+  Copy
+  Edit
+  PORT=3000
+  OPENAI_API_KEY=your-api-key-here
+  Build and Run:
 
 Build your frontend (if applicable) and ensure the static files are in the build directory.
 Start the server:
